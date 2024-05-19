@@ -4,10 +4,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>MesaYa!</title>
+    <title>Reserva en MesaYa</title>
 </head>
 <body>
-    <h1>MesaYa!</h1>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <h1 class="logo">MesaYa</h1>
+                    <ul class="menu">
+                        <li><a href="#about-us">Sobre Nosotros</a></li>
+                        <li><a href="#testimonials">Testimonios</a></li>
+                        <li><a href="#restaurants">Restaurantes</a></li>
+                        <li><a href="#contact-info">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+       
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2>Reserva tu mesa perfecta en segundos con MesaYa!</h2>
+                    <p>Descubre y asegura tus lugares favoritos en los mejores restaurantes de forma rápida y sencilla. ¡Empieza a disfrutar de experiencias gastronómicas inolvidables ahora mismo!</p>
+                    <a href="#booking-form" class="cta-button">Reservar Ahora</a>
+                </div>
+                <div class="cta-image">
+                    <img src="img/restaurant-image.png" alt="MesaYa">
+                </div>
+            </div>
+        </div>
+        
+    </header>
     
+    <main>
+        <section id="about-us">
+            <div class="container">
+                <h2>Acerca de Nosotros</h2>
+                <div class="about-content">
+                    <div class="about-section full-width">
+                        <h3>Historia</h3>
+                        <p>MesaYa es la plataforma líder en reserva de restaurantes, fundada en 2015 por Juan Pérez y María Rodríguez. Desde entonces, hemos trabajado incansablemente para simplificar tu experiencia gastronómica y asegurar que cada comida sea una experiencia memorable.</p>
+                    </div>
+                    <div class="about-section full-width">
+                        <h3>Equipo</h3>
+                        <div class="team-members-container">
+                            <div class="team-member">
+                                <img src="img/user1.jpg" alt="Juan Pérez">
+                                <h4>Juan Pérez</h4>
+                                <p>Co-Fundador y CEO</p>
+                                <p>Juan es un emprendedor apasionado por la gastronomía y la tecnología. Con una sólida experiencia en el sector de la restauración, lidera el equipo de MesaYa con visión y determinación.</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="img/user2.jpg" alt="María Rodríguez">
+                                <h4>María Rodríguez</h4>
+                                <p>Co-Fundadora y CTO</p>
+                                <p>María es una experta en desarrollo de software con una pasión por la innovación. Su liderazgo técnico ha sido fundamental en el desarrollo y crecimiento de MesaYa.</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="img/user3.jpg" alt="Carlos González">
+                                <h4>Carlos González</h4>
+                                <p>Director de Marketing</p>
+                                <p>Carlos es un estratega creativo con una vasta experiencia en el campo del marketing. Su enfoque innovador ha contribuido al éxito de MesaYa en el mercado.</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="img/user1.jpg" alt="Laura Martínez">
+                                <h4>Laura Martínez</h4>
+                                <p>Gerente de Producto</p>
+                                <p>Laura es una apasionada por la experiencia del usuario y está comprometida en mejorar constantemente la plataforma MesaYa para satisfacer las necesidades de nuestros usuarios.</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="img/user3.jpg" alt="Roberto Sánchez">
+                                <h4>Roberto Sánchez</h4>
+                                <p>Director Financiero</p>
+                                <p>Roberto aporta una sólida experiencia en gestión financiera y estrategias empresariales. Su liderazgo ha contribuido a mantener la estabilidad financiera de MesaYa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="testimonials">
+            <div class="container">
+                <h2>Testimonios de Usuarios de MesaYa</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <img src="img/user1.jpg" alt="Usuario MesaYa">
+                        <p>"La experiencia con MesaYa ha sido increíble. ¡Nunca volveré a reservar un restaurante de otra manera!"</p>
+                        <footer>- Juan Pérez</footer>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="img/user2.jpg" alt="Usuario MesaYa">
+                        <p>"MesaYa ha simplificado enormemente la forma en que organizamos salidas con amigos. ¡Altamente recomendado!"</p>
+                        <footer>- María Rodríguez</footer>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="img/user3.jpg" alt="Usuario MesaYa">
+                        <p>"¡Gracias a MesaYa, ahora puedo disfrutar de cenas en los mejores restaurantes sin preocuparme por las reservas!"</p>
+                        <footer>- Carlos Gutiérrez</footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="restaurants">
+            <div class="container">
+                <h2>Restaurantes</h2>
+                <div class="menu-search">
+                    <input type="text" id="menu-search" placeholder="Buscar restaurante...">
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-item">
+                        <h3>Restaurante 1</h3>
+                        <p>Descripción del restaurante 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <span class="price">Precio promedio: $$$$</span>
+                    </div>
+                    <div class="restaurant-item">
+                        <h3>Restaurante 2</h3>
+                        <p>Descripción del restaurante 2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <span class="price">Precio promedio: $$$</span>
+                    </div>
+                    <!-- Agrega más elementos de restaurantes según sea necesario -->
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <section id="contact-info">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Enviar Mensaje</button>
+                    </form>
+                </div>
+                <div class="contact-info-text">
+                    <h3>¡Estamos aquí para ayudarte!</h3>
+                    <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos. Estamos encantados de ayudarte con tus necesidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">MesaYa</div>
+                <ul class="footer-menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#about-us">Sobre Nosotros</a></li>
+                    <li><a href="#testimonials">Testimonios</a></li>
+                    <li><a href="#restaurants">Restaurantes</a></li>
+                    <li><a href="#contact-info">Contacto</a></li>
+                    <li><a href="tusitio.com/terminos-y-condiciones.html">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <p>Síguenos en:</p>
+                <!-- Agrega íconos o enlaces a redes sociales aquí -->
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+            <div class="footer-copyright">&copy; 2024 HampCode - Todos los derechos reservados</div>
+        </div>
+    </footer>
 </body>
 </html>
